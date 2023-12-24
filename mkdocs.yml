@@ -1,0 +1,91 @@
+site_name: Portuscript
+repo_url: https://github.com/natanfeitosa/portuscript/
+repo_name: natanfeitosa/portuscript
+edit_uri: https://github.com/natanfeitosa/portudoc/edit/main/docs/
+
+theme:
+  name: material
+  locale: pt_BR
+  language: pt-BR
+  icon:
+    repo: fontawesome/brands/github
+  features:
+    - content.code.copy
+    - content.code.select
+    # - navigation.path
+    # - navigation.expand
+    # - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - navigation.tracking
+    - navigation.footer
+    - search.highlight
+    - search.share
+    - search.suggest
+    - content.action.edit
+    - toc.integrate
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/lightbulb-outline
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/lightbulb
+        name: Switch to system preference
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+extra:
+  social:
+    - icon: fontawesome/brands/x-twitter 
+      link: https://twitter.com/dev_natan
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/natanfeitosa
+    - icon: fontawesome/brands/github
+      link: https://github.com/natanfeitosa
+
+markdown_extensions:
+  - toc:
+      permalink: True
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.superfences
+  - attr_list
+  - admonition
+
+plugins: 
+  - search:
+      lang: pt
+
+nav:
+  - Home: index.md
+  - Variáveis e Constantes: variaveis.md
+  - Tipos de dados:
+    # - Início: tipos/index.md
+    - Texto: tipos/texto.md
+    - Inteiro: tipos/inteiro.md
+    - Decimal: tipos/decimal.md
+    - Mapa: tipos/mapa.md
+    - Tupla: tipos/tupla.md
+    - Lista: tipos/lista.md
+  - Operadores: operadores.md
+  - Controles de Fluxo: controles.md
+  - Funções: funcoes.md
+  - Funções e constantes embutidas: embutidos.md
+
+hooks:
+  - register_portuscript_lexer.py
+
+dev_addr: "127.0.0.1:3000"

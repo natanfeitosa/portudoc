@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "portudoc"
+version = "0.1.0"
+description = "Documentaçao do Portuscript"
+authors = ["natanfeitosa <natansantosapps@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+mkdocs-material = "^9.5.2"
+mkdocs = "^1.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
