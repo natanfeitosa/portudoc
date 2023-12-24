@@ -28,6 +28,6 @@ def copy_portuscript_lexer(create: bool):
     reload(pygments)
 
 create = not portuscript_in_pygments.exists()
-update = portuscript_original_file_lexer.stat().st_mtime > portuscript_in_pygments.stat().st_mtime
+update = not create and portuscript_original_file_lexer.stat().st_mtime > portuscript_in_pygments.stat().st_mtime
 if create or update:
     copy_portuscript_lexer(create)
