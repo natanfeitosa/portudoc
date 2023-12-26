@@ -1,4 +1,7 @@
-Representa uma sequência imutável de objetos
+Representa uma sequência imutável de objetos definidos entre parenteses.
 
-!!! note
-    Este tipo por enquanto ainda é usado apenas no lado `Go` da linguagem.
+Exemplo:
+```ptst
+const tupla = (1, 2, 3, 4);
+imprima(tupla)
+```
