@@ -103,6 +103,26 @@ enquanto (contador < 5) {
 
 Neste exemplo, o bloco de código dentro do `#!ptst enquanto` será repetido enquanto a condição `contador < 5` for verdadeira.
 
+## Bloco `#!ptst para`
+
+Este é bastante semelhante ao bloco `#!ptst enquanto`, porém ao contrário dele, esse não lida com booleanos, mas sim com objetos que implementam a interface de [iterador](https://pt.wikipedia.org/wiki/Iterador){:target="_blank"}.
+
+Um pequeno exemplo.
+
+```ptst
+para(num em (1, 2, 3, 4)) {
+    imprima("numero:", num)
+}
+```
+
+A saída será algo assim:
+```bash
+numero: 1
+numero: 2
+numero: 3
+numero: 4
+```
+
 ## Operador `#!ptst continue`
 
 O operador `#!ptst continue` é usado para interromper a execução do bloco de código atual dentro de um loop `#!ptst enquanto` e continuar com a próxima iteração do loop. A estrutura básica é a seguinte:

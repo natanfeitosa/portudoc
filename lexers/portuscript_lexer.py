@@ -47,6 +47,7 @@ class PortuscriptLexer(RegexLexer):
                         "retorne",
                         "pare",
                         "continue",
+                        "para"
                     ),
                     suffix=r"\b",
                 ),
