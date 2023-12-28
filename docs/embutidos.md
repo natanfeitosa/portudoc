@@ -73,6 +73,18 @@ As funções e constantes embutidas servem para facilitar o desenvolvimento ou t
 -   **Exemplo**:
     
     ```ptst
-    texto_num = texto(42)  
+    texto_num = texto(42)
     imprima(texto_num)  # Saída: 42
+    ```
+    
+
+### Função "tamanho"
+
+-   **Descrição**: Recebe um objeto e retorna o tamanho dele, se implementar a interface `I__tamanho__.
+-   **Uso**: `tamanho(objeto)`
+-   **Exemplo**:
+    
+    ```ptst
+    texto_tam = tamanho("portuscript")
+    imprima(texto_tam)  # Saída: 11
     ```
