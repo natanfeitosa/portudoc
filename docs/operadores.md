@@ -24,8 +24,8 @@ imprima(1 / 2) # 0.5
 
 - `//` - Divisão inteira: Divide um valor pelo outro e retorna apenas a parte inteira da operação
 ```ptst
-imprima(4 / 4) # 1
-imprima(1 / 2) # 0
+imprima(4 // 4) # 1
+imprima(1 // 2) # 0
 ```
 
 - `+` - Adição: Soma dois valores ou concatena textos
@@ -38,6 +38,33 @@ imprima("Olá" + "!") # Olá!
 ```ptst
 imprima(11 - 4) # 7
 ```
+
+## Operadores _inplace_
+
+!!! note
+    Caso você não saiba, os operadores inplace são aqueles operadores que fazem alguma operação com o valor previamente atribuído a uma variável, e em seguida adiciona o resultado dessa operação à ela novamente.
+
+- `*=` - Multiplicação inplace
+```ptst
+var ano = 2023;
+imprima(ano) # 2023
+
+ano *= 2;
+imprima(ano) # 4046
+```
+Sem operador inplace, a mesma operação pode ser escrita da seguinte forma:
+```ptst
+var ano = 2023;
+imprima(ano) # 2023
+
+ano = ano * 2;
+imprima(ano) # 4046
+```
+
+- `/=` - Divisão inplace
+- `//=` - Divisão iteira inplace
+- `+=` - Adição inplace
+- `-=` - Subtração inplace
 
 ## Operadores de comparação
 
