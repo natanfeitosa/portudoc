@@ -38,7 +38,7 @@ As funções e constantes embutidas servem para facilitar o desenvolvimento ou t
 -   **Exemplo**:
     
     ```ptst
-    texto_lido = leia("Digite algo:")
+    var texto_lido = leia("Digite algo:")
     imprima("Você digitou:", texto_lido)
     ```
     
@@ -61,7 +61,7 @@ As funções e constantes embutidas servem para facilitar o desenvolvimento ou t
 -   **Exemplo**:
     
     ```ptst
-    num = int("42")  
+    var num = int("42")  
     imprima(num)  # Saída: 42
     ```
     
@@ -73,7 +73,7 @@ As funções e constantes embutidas servem para facilitar o desenvolvimento ou t
 -   **Exemplo**:
     
     ```ptst
-    texto_num = texto(42)
+    var texto_num = texto(42)
     imprima(texto_num)  # Saída: 42
     ```
     
@@ -85,6 +85,6 @@ As funções e constantes embutidas servem para facilitar o desenvolvimento ou t
 -   **Exemplo**:
     
     ```ptst
-    texto_tam = tamanho("portuscript")
+    var texto_tam = tamanho("portuscript")
     imprima(texto_tam)  # Saída: 11
     ```
