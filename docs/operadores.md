@@ -22,6 +22,12 @@ imprima(4 / 4) # 1.0
 imprima(1 / 2) # 0.5
 ```
 
+- `//` - Divisão inteira: Divide um valor pelo outro e retorna apenas a parte inteira da operação
+```ptst
+imprima(4 / 4) # 1
+imprima(1 / 2) # 0
+```
+
 - `+` - Adição: Soma dois valores ou concatena textos
 ```ptst
 imprima(3 + 4) # 7
