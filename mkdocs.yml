@@ -45,7 +45,7 @@ theme:
 
 extra:
   social:
-    - icon: fontawesome/brands/x-twitter 
+    - icon: fontawesome/brands/x-twitter
       link: https://twitter.com/dev_natan
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/natanfeitosa
@@ -62,10 +62,11 @@ markdown_extensions:
       pygments_lang_class: true
   - pymdownx.inlinehilite
   - pymdownx.superfences
+  - pymdownx.details
   - attr_list
   - admonition
 
-plugins: 
+plugins:
   - search:
       lang: pt
 
@@ -73,17 +74,19 @@ nav:
   - Home: index.md
   - Variáveis e Constantes: variaveis.md
   - Tipos de dados:
-    # - Início: tipos/index.md
-    - Texto: tipos/texto.md
-    - Inteiro: tipos/inteiro.md
-    - Decimal: tipos/decimal.md
-    - Mapa: tipos/mapa.md
-    - Tupla: tipos/tupla.md
-    - Lista: tipos/lista.md
+      # - Início: tipos/index.md
+      - Texto: tipos/texto.md
+      - Inteiro: tipos/inteiro.md
+      - Decimal: tipos/decimal.md
+      - Mapa: tipos/mapa.md
+      - Tupla: tipos/tupla.md
+      - Lista: tipos/lista.md
   - Operadores: operadores.md
   - Controles de Fluxo: controles.md
   - Funções: funcoes.md
   - Funções e constantes embutidas: embutidos.md
+  - Modulos:
+      - Início: modulos/index.md
 
 hooks:
   - register_portuscript_lexer.py

@@ -47,7 +47,9 @@ class PortuscriptLexer(RegexLexer):
                         "retorne",
                         "pare",
                         "continue",
-                        "para"
+                        "para",
+                        "de",
+                        "importe",
                     ),
                     suffix=r"\b",
                 ),
@@ -56,7 +58,7 @@ class PortuscriptLexer(RegexLexer):
             (words(("Verdadeiro", "Falso", "Nulo"), suffix=r"\b"), Keyword.Constant),
         ],
         "builtins": [
-            (words(("int", "imprima"), prefix=r"(?<!\.)", suffix=r"\b"), Name.Builtin),
+            (words(("int", "imprima", "texto", "int", "doc", "tamanho", "leia"), prefix=r"(?<!\.)", suffix=r"\b"), Name.Builtin),
         ],
         "expr": [
             include("numbers"),
