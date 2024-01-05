@@ -63,6 +63,7 @@ markdown_extensions:
   - pymdownx.inlinehilite
   - pymdownx.superfences
   - pymdownx.details
+  - pymdownx.arithmatex
   - attr_list
   - admonition
 
@@ -87,8 +88,13 @@ nav:
   - Funções e constantes embutidas: embutidos.md
   - Modulos:
       - Início: modulos/index.md
+      - matematica: modulos/matematica.md
 
 hooks:
   - register_portuscript_lexer.py
+
+extra_javascript:
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
 
 dev_addr: "127.0.0.1:3000"
