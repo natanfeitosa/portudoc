@@ -89,6 +89,7 @@ nav:
   - Modulos:
       - Início: modulos/index.md
       - matematica: modulos/matematica.md
+      - sistema: modulos/sistema.md
 
 hooks:
   - register_portuscript_lexer.py

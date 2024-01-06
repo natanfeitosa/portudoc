@@ -2,7 +2,7 @@ Este módulo provê funções e constantes úteis a serem usadas quando precisar
 
 !!! example
     ```ptst
-    de "matematica" importe # ... o que desejar importar
+    de "matematica" importe ... o que desejar importar;
     ```
 
 !!! note
