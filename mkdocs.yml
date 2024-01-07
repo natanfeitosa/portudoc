@@ -1,5 +1,5 @@
 site_name: Portuscript
-site_url: !ENV [SITE_URL, null]
+site_url: !ENV SITE_URL
 repo_url: https://github.com/natanfeitosa/portuscript/
 repo_name: natanfeitosa/portuscript
 edit_uri: https://github.com/natanfeitosa/portudoc/edit/main/docs/
