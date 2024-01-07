@@ -21,6 +21,7 @@ build:
       # https://python-poetry.org/docs/managing-dependencies/#dependency-groups
       - export SITE_URL=https://portudoc.readthedocs.io/pt/latest/
       - poetry install
+      - poetry run python ./rebuild-mkdocs-config.py
 
 mkdocs:
-  configuration: mkdocs.yml
+  configuration: mkdocs.config.yml
