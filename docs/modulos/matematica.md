@@ -9,10 +9,10 @@ Este módulo provê funções e constantes úteis a serem usadas quando precisar
     Para fins de praticidade, vamos chamar o objeto do módulo `matematica` de `mat`.
 
 ## `mat.PI`
-A constante matemática `π = 3.14159...` conforme a precisão do tipo [`decimal`](/tipos/decimal) usado no seu sistema
+A constante matemática `π = 3.14159...` conforme a precisão do tipo [`decimal`](../tipos/decimal.md) usado no seu sistema
 
 ## `mat.E`
-A constante matemática `e = 2.71828...` conforme a precisão do tipo [`decimal`](/tipos/decimal) usado no seu sistema
+A constante matemática `e = 2.71828...` conforme a precisão do tipo [`decimal`](../tipos/decimal.md) usado no seu sistema
 
 ## `mat.raiz(randicando, indice=2)`
 Calcula e retorna a raiz representada pelo tipo decimal.

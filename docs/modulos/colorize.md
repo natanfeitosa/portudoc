@@ -7,7 +7,7 @@ Módulo do tipo utilitário para dar cores e estilo ao terminar/linha de comando
 Esta é uma constante que diz se seu terminal aceita cores, ela tem o valor de acordo com a variável de ambiente `NO_COLOR`, se está variável de ambiente não existir no sistema ou estiver preenchida com string vazia, nossa constante vai ser `#!ptst Verdadeiro`.
 
 ## `color.imprimac(...objetos)`
-Esta é uma função que funciona de forma bem parecida com a outra dos [Embutidos](../embutidos.md), porém diferente dela, essa está mais preparada pra trabalhar com cores. Isso é, se o sistema não aceitar cores, os caracteres adicionais referentes a cores e estilos serão removidos.
+Esta é uma função que funciona de forma bem parecida com a outra dos [Embutidos](../embutidos.md#funcao-imprima), porém diferente dela, essa está mais preparada pra trabalhar com cores. Isso é, se o sistema não aceitar cores, os caracteres adicionais referentes a cores e estilos serão removidos.
 
 ## `color.converteRGB(vermelho, verde, azul, background?)`
 

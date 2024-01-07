@@ -1,7 +1,7 @@
 Representa os dados definidos entre aspas.
 
 !!! tip "dica"
-    Para converter um tipo de dado em outro do tipo `Texto`, basta usar a função embutida [`texto()`](/embutidos/#funcao-texto)
+    Para converter um tipo de dado em outro do tipo `Texto`, basta usar a função embutida [`texto()`](../embutidos.md/#funcao-texto)
 
 ## Métodos
 
