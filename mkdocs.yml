@@ -6,6 +6,7 @@ edit_uri: https://github.com/natanfeitosa/portudoc/edit/main/docs/
 
 theme:
   name: material
+  custom_dir: theme/overrides
   locale: pt_BR
   language: pt-BR
   icon:
