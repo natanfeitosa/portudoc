@@ -75,7 +75,7 @@ As funções e constantes embutidas servem para facilitar o desenvolvimento ou t
 
 ### Função "tamanho"
 
--   **Descrição**: Recebe um objeto e retorna o tamanho dele, se implementar a interface `I__tamanho__.
+-   **Descrição**: Recebe um objeto e retorna o tamanho dele, se implementar a interface `I__tamanho__`.
 -   **Uso**: `tamanho(objeto)`
 -   **Exemplo**:
     
