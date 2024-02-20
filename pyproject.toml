@@ -10,6 +10,7 @@ readme = "README.md"
 python = "^3.10"
 mkdocs-material = "^9.5.2"
 mkdocs = "^1.5.3"
+mkdocs-ultralytics-plugin = "^0.0.43"
 
 
 [build-system]

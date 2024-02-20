@@ -52,7 +52,7 @@ extra:
     - icon: fontawesome/brands/linkedin
       link: https://www.linkedin.com/in/natanfeitosa
     - icon: fontawesome/brands/github
-      link: https://github.com/natanfeitosa
+      link: https://github.com/natanfeitosa/portudoc
 
 markdown_extensions:
   - toc:
@@ -72,6 +72,9 @@ markdown_extensions:
 plugins:
   - search:
       lang: pt
+  - ultralytics:
+      add_authors: False
+      verbose: False
 
 nav:
   - Home: index.md
