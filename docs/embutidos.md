@@ -29,7 +29,6 @@ As funções e constantes embutidas servem para facilitar o desenvolvimento ou t
     ```ptst
     imprima("Olá", 42, Verdadeiro)  # Saída: Olá 42 Verdadeiro
     ```
-    
 
 ### Função "leia"
 
@@ -41,7 +40,6 @@ As funções e constantes embutidas servem para facilitar o desenvolvimento ou t
     var texto_lido = leia("Digite algo:")
     imprima("Você digitou:", texto_lido)
     ```
-    
 
 ### Função "doc"
 
@@ -52,7 +50,6 @@ As funções e constantes embutidas servem para facilitar o desenvolvimento ou t
     ```ptst
     doc(imprima)  # Imprime a documentação da função imprima
     ```
-    
 
 ### Função "int"
 
@@ -64,7 +61,6 @@ As funções e constantes embutidas servem para facilitar o desenvolvimento ou t
     var num = int("42")  
     imprima(num)  # Saída: 42
     ```
-    
 
 ### Função "texto"
 
@@ -76,7 +72,6 @@ As funções e constantes embutidas servem para facilitar o desenvolvimento ou t
     var texto_num = texto(42)
     imprima(texto_num)  # Saída: 42
     ```
-    
 
 ### Função "tamanho"
 
@@ -87,4 +82,29 @@ As funções e constantes embutidas servem para facilitar o desenvolvimento ou t
     ```ptst
     var texto_tam = tamanho("portuscript")
     imprima(texto_tam)  # Saída: 11
+    ```
+
+### Função "instanciaDe"
+
+!!! warning
+    Ainda não há como usar no lado `ptst` do código.
+
+-   **Descrição**: O parâmetro `tipos` pode ser um tipo ou uma tupla de tipos/classes. Verifica se o obj é instancia de algum dos tipos.
+-   **Uso**: `instanciaDe(obj, tipos)`
+-   **Exemplo**:
+    
+    ```ptst
+    var e_inteiro = instanciaDe(1, Inteiro)
+    imprima(e_inteiro)  # Saída: Verdadeiro
+    ```
+
+### Função "mesmoTipo"
+
+-   **Descrição**: Verifica se os dois objetos são do mesmo tipo.
+-   **Uso**: `mesmoTipo(obj1, obj2)`
+-   **Exemplo**:
+    
+    ```ptst
+    imprima(mesmoTipo(1, 2))  # Saída: Verdadeiro
+    imprima(mesmoTipo(1, 2.0))  # Saída: Falso
     ```
